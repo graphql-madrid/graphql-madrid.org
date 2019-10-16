@@ -495,36 +495,36 @@ const IndexPage = () => {
             </div>
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
-                <a href="https://twitter.com/meixnertobias">
+              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+                <a href="mailto:info@graphql-hongkong.org">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/tobias-meixner.jpg")}
-                      alt=""
+                      src={require("../images/profile-picture.png")}
+                      alt="Profile picture"
                     />
                     <div className="team-overlay">
                       <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
+                        {/* <ul className="social-icons">
                           <li>
-                            <a href="https://twitter.com/meixnertobias">
+                            <a href="https://twitter.com/swcarlosrj">
                               <i
                                 className="lni-twitter-filled"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/meixnertobias">
-                        Tobias Meixner
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdm3jOtYk-s_MVSoNucNVMUwjLGTU30FcAdReuEEkNLPOYIWQ/viewform">
+                        Join us!
                       </a>
                     </h3>
-                    <p>Co-Founder & CTO, BrikL</p>
+                    <p>Local speaker, Hong Kong</p>
                   </div>
                 </a>
               </div>
@@ -794,7 +794,7 @@ const IndexPage = () => {
                 <div className="icon">
                   <i className="lni-users"></i>
                 </div>
-                <p>~50/100 Available Seats</p>
+                <p>~50 Available Seats</p>
                 <span>We're looking for venue sponsors!</span>
               </div>
             </div>
@@ -974,14 +974,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/tobias-meixner.jpg")}
+                              src={require("../images/profile-picture.png")}
                               alt=""
                             />
                           </div>
                           <span className="time">20:15 - 20:45</span>
                           <h4>TBD</h4>
                           <h5 className="name">
-                            Tobias Meixner - Co-Founder & CTO, BrikL
+                            Join us! - Local speaker, Hong Kong
                           </h5>
                         </div>
                       </div>
@@ -1704,7 +1704,7 @@ const IndexPage = () => {
                 target="_blank"
               >
                 <img
-                  width={200}
+                  width={300}
                   src={require("../images/become-sponsor.jpg")}
                 />
               </a>
@@ -1720,7 +1720,7 @@ const IndexPage = () => {
               </div>              
             </div> */}
             </div>
-            <div className="col-12" style={{ padding: 0 }}>
+            {/* <div className="col-12" style={{ padding: 0 }}>
               <div id="conatiner-map">
                 <iframe
                   style={{
@@ -1732,7 +1732,7 @@ const IndexPage = () => {
                   allowFullScreen
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div style={{ paddingBottom: 40 }}></div>
