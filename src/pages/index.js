@@ -419,11 +419,11 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-                <a href="https://twitter.com/tanmaigo" target="_blank">
+                <a href="https://twitter.com/codingcoop" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/tanmai-gopal.jpg")}
+                      src={require("../images/joseph-cooper.png")}
                       alt=""
                     />
                     <div className="team-overlay">
@@ -431,7 +431,7 @@ const IndexPage = () => {
                         <ul className="social-icons">
                           <li>
                             <a
-                              href="https://twitter.com/tanmaigo"
+                              href="https://twitter.com/codingcoop"
                               target="_blank"
                             >
                               <i
@@ -446,11 +446,11 @@ const IndexPage = () => {
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/tanmaigo" target="_blank">
-                        Tanmai Gopal
+                      <a href="https://twitter.com/codingcoop" target="_blank">
+                        Joseph Cooper
                       </a>
                     </h3>
-                    <p>Co-Founder & CEO, Hasura</p>
+                    <p>Founder & CEO, Kintohub</p>
                   </div>
                 </a>
               </div>
@@ -503,35 +503,41 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="mailto:info@graphql-hongkong.org">
+                <a href="https://twitter.com/meixnertobias" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/profile-picture.png")}
-                      alt="Profile picture"
+                      src={require("../images/tobias-meixner.jpg")}
+                      alt=""
                     />
                     <div className="team-overlay">
                       <div className="overlay-social-icon text-center">
-                        {/* <ul className="social-icons">
+                        <ul className="social-icons">
                           <li>
-                            <a href="https://twitter.com/swcarlosrj">
+                            <a
+                              href="https://twitter.com/meixnertobias"
+                              target="_blank"
+                            >
                               <i
                                 className="lni-twitter-filled"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdm3jOtYk-s_MVSoNucNVMUwjLGTU30FcAdReuEEkNLPOYIWQ/viewform">
-                        Join us!
+                      <a
+                        href="https://twitter.com/meixnertobias"
+                        target="_blank"
+                      >
+                        Tobias Meixner
                       </a>
                     </h3>
-                    <p>Local speaker, Hong Kong</p>
+                    <p>Co-Founder & CTO, BrikL</p>
                   </div>
                 </a>
               </div>
@@ -558,7 +564,7 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="https://twitter.com/swcarlosrj">
+                <a href="https://twitter.com/swcarlosrj" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
@@ -569,7 +575,10 @@ const IndexPage = () => {
                       <div className="overlay-social-icon text-center">
                         <ul className="social-icons">
                           <li>
-                            <a href="https://twitter.com/swcarlosrj">
+                            <a
+                              href="https://twitter.com/swcarlosrj"
+                              target="_blank"
+                            >
                               <i
                                 className="lni-twitter-filled"
                                 aria-hidden="true"
@@ -582,7 +591,9 @@ const IndexPage = () => {
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
+                      <a href="https://twitter.com/swcarlosrj" target="_blank">
+                        Carlos Rufo
+                      </a>
                     </h3>
                     <p>Organizer, GraphQL Hong Kong</p>
                   </div>
@@ -933,14 +944,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/tanmai-gopal.jpg")}
+                              src={require("../images/joseph-cooper.png")}
                               alt=""
                             />
                           </div>
                           <span className="time">19:15 - 19:45</span>
-                          <h4>TBD</h4>
+                          <h4>Introducing GraphQL Actions</h4>
                           <h5 className="name">
-                            Tanmai Gopal - Co-Founder & CEO, Hasura
+                            Joseph Cooper - Founder & CEO, Kintohub
                           </h5>
                         </div>
                       </div>
@@ -962,7 +973,7 @@ const IndexPage = () => {
                             />
                           </div>
                           <span className="time">19:45 - 20:15</span>
-                          <h4>TBD</h4>
+                          <h4>GraphQL where it hurts the most</h4>
                           <h5 className="name">
                             Uri Goldshtein - Founder & CEO, The Guild
                           </h5>
@@ -981,14 +992,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/profile-picture.png")}
+                              src={require("../images/tobias-meixner.jpg")}
                               alt=""
                             />
                           </div>
                           <span className="time">20:15 - 20:45</span>
-                          <h4>TBD</h4>
+                          <h4>Public GraphQL APIs</h4>
                           <h5 className="name">
-                            Join us! - Local speaker, Hong Kong
+                            Tobias Meixner - Co-Founder & CTO, BrikL
                           </h5>
                         </div>
                       </div>
